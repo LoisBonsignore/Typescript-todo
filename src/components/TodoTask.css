@@ -1,0 +1,26 @@
+.general_todo_container {
+    margin-bottom: 1%;
+}
+
+.general_todo_container .task_card {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 40%;
+
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.general_todo_container .task_card p {
+    margin: 0;
+    padding: 5px;
+}
+
+.general_todo_container .task_card button {
+    margin: 5px;
+    width: 10%;
+    color: blueviolet;
+    cursor: pointer;
+}

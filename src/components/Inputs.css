@@ -1,0 +1,26 @@
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 1%;
+    background-color: blueviolet;
+    width: 50%;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.form_container form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container form button {
+    margin-top: 10px;
+    border: white solid 2px;
+    color: blueviolet;
+    cursor: pointer;
+}
